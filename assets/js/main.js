@@ -1,24 +1,10 @@
 const d = document;
+/* Cards */
+import { Card } from './cards.js';
 
-//import { cards } from './cards.js';
+// Invoked my class Card from Card(import)
+const c = new Card();
 
-const card = d.querySelector('.progress-done');
-
-card.innerHTML = '30 %';
-
-card.style.width = card.getAttribute('data-done') + '%';
-card.style.opacity = 1;
-
-/* console.log(cards);
-
-cards.forEach((card) => {
-  card.innerHTML = '30 %';
-
-  card.style.width = card.getAttribute('data-done') + '%';
-  card.style.opacity = 1;
-
-
-}) */
 /*====== MENU =====*/
 const showMenu = (toggleID, navID) => {
   const $toggle = d.getElementById(toggleID),
@@ -33,6 +19,7 @@ const showMenu = (toggleID, navID) => {
 
 d.addEventListener('DOMContentLoaded', () => {
   showMenu('nav-toggle', 'nav-menu');
+  c.showCard();
 });
 
 /*====== RELLAX =====*/
