@@ -1,5 +1,24 @@
 const d = document;
 
+//import { cards } from './cards.js';
+
+const card = d.querySelector('.progress-done');
+
+card.innerHTML = '30 %';
+
+card.style.width = card.getAttribute('data-done') + '%';
+card.style.opacity = 1;
+
+/* console.log(cards);
+
+cards.forEach((card) => {
+  card.innerHTML = '30 %';
+
+  card.style.width = card.getAttribute('data-done') + '%';
+  card.style.opacity = 1;
+
+
+}) */
 /*====== MENU =====*/
 const showMenu = (toggleID, navID) => {
   const $toggle = d.getElementById(toggleID),
@@ -82,3 +101,10 @@ const st = ScrollReveal({
 st.reveal('.section__data', { origin: 'left', distance: '70px' });
 /*Imgs*/
 st.reveal('.section__img', { origin: 'left', distance: '90px', delay: 200 });
+
+st.reveal('.level-image', { origin: 'left', distance: '200px' });
+st.reveal('.level', { origin: 'left', delay: 100 });
+st.reveal('.skills-text', { origin: 'left', distance: '70px' });
+
+st.reveal('.card-name', { origin: 'left', distance: '20px' });
+st.reveal('.card-svg-logo', { origin: 'right', distance: '10px' });

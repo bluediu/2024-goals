@@ -36,3 +36,31 @@
   background-color: #5d4604;
   background-image: linear-gradient(316deg, #5d4604 0%, #591002 74%);
 }
+.firebase {
+  background: linear-gradient(to right, #ebdb00 0%, #bf885f 100%);
+}
+.python {
+  background: linear-gradient(to right, #ffee00 0%, #1000eb 100%);
+}
+.django {
+  background-color: #3bb78f;
+  background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+}
+.webpack {
+  background: linear-gradient(to right, #006eff 0%, #00aaff 100%);
+}
+
+// Levels
+.basic {
+  color: #2ecc71;
+}
+.intermediate {
+  color: #f1c40f;
+}
+.semi-advanced {
+  color: #8e44ad;
+}
+
+.advanced {
+  color: #3498db;
+}

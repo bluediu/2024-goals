@@ -265,6 +265,88 @@ img {
   border-radius: 0.5rem;
 }
 
+/* ===== Skills ==== */
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+.skills h3 {
+  color: var(--first-color);
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+}
+
+.level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+.level-image {
+  margin-top: 3rem;
+  width: 285px;
+}
+
+.level-color {
+  margin: 1rem 0.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.level-color p {
+  color: #d5dbdb;
+}
+
+.level-color span {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 760px) {
+  .levels {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 3rem 1rem;
+  }
+  .levels .level-color {
+    margin-left: 12rem;
+    font-size: 1.7rem;
+  }
+  .levels .level-image {
+    width: 500px;
+    margin: auto;
+  }
+}
+
 /* ===== Card ==== */
 .card-container {
   display: -ms-grid;
@@ -272,8 +354,6 @@ img {
   max-width: 100vw;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  /* grid-column-gap: 20px;
-  grid-row-gap: 30px; */
   background-color: var(--dark-color);
   overflow-x: auto;
 }
@@ -286,14 +366,13 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /*   grid-template-rows: repeat(2, 1fr); */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #17202a;
   -webkit-box-shadow: 20px 20px 60px #17202a, -20px -20px 60px #17202a;
           box-shadow: 20px 20px 60px #17202a, -20px -20px 60px #17202a;
@@ -344,7 +423,6 @@ img {
   position: relative;
   margin: 15px 0;
   height: 30px;
-  width: auto;
 }
 
 .card-body .card-name .progress-done {
@@ -360,7 +438,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
-  width: 70%;
   opacity: 1;
   font-weight: 700;
   letter-spacing: 1px;

@@ -14,7 +14,7 @@
 
 <body>
     <!-- ===== HEADER =====-->
-    <header class="l-header">
+    <header class="l-header" id="header">
         <nav class="nav bd-grid">
             <a href="#" class="nav__logo">BlueDiU</a>
 
@@ -24,9 +24,9 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#header" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#goals" class="nav__link">Objectives</a></li>
-                    <li class="nav__item"><a href="#skill" class="nav__link">Goals</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Goals</a></li>
                 </ul>
             </div>
         </nav>
@@ -64,8 +64,31 @@
                 <img src="assets/img/goals.svg" alt="" class="section__img">
             </div>
         </section>
+        <!-- ===== Skill Cards =====-->
+        <section class="skills">
+            <h3 class="skills-text">🥊 Habilidades</h3>
 
-        <h1 id="skill">Skill</h1>
+            <div class="levels">
+                <div class="level-image">
+                    <img src="assets/img/skills.svg" alt="">
+                </div>
+
+                <div class="level">
+                    <div class="level-color">
+                        <p>1%-20% = <span class="basic">Básico</span></p>
+                    </div>
+                    <div class="level-color">
+                        <p>29%-50% = <span class="intermediate">Intermedio</span></p>
+                    </div>
+                    <div class="level-color">
+                        <p>50%-70% = <span class="semi-advanced">Semi-avanzado</span></p>
+                    </div>
+                    <div class="level-color">
+                        <p>70%-100% = <span class="advanced">Avanzado</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- ===== Goals Cards =====-->
         <section class="card-container">
@@ -78,14 +101,17 @@
                     <div>
                         <h2>HTML</h2>
                     </div>
-                    <div class="progress">
-                        <div class="progress-done html" data-done="70">
-                            70%
+                    <div>
+                        <div class="progress">
+                            <div class="progress-done html" data-done="20">
+                                70%
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>Marcado de hipertexto</span></p>
+                    <p><span>Primer día:</span> 12/01/2020</p>
                 </div>
             </article>
             <!-- CSS -->
@@ -105,6 +131,7 @@
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>Estilos en cascada</span></p>
+                    <p><span>Primer día:</span> 21/03/2020</p>
                 </div>
             </article>
             <!-- JavaScript -->
@@ -124,6 +151,7 @@
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>Lenguaje de programación</span></p>
+                    <p><span>Primer día:</span> 12/05/2020</p>
                 </div>
             </article>
             <!-- React -->
@@ -143,6 +171,7 @@
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>Framework</span></p>
+                    <p><span>Primer día:</span> --/--/2021</p>
                 </div>
             </article>
             <!-- SASS -->
@@ -162,6 +191,7 @@
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>Preprocesador</span></p>
+                    <p><span>Primer día:</span> 14/12/2020</p>
                 </div>
             </article>
             <!-- bootstrap -->
@@ -181,6 +211,7 @@
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>Framework</span></p>
+                    <p><span>Primer día:</span> --/--/2021</p>
                 </div>
             </article>
             <!-- tailwind -->
@@ -190,7 +221,7 @@
                 </div>
                 <div class="card-name">
                     <div>
-                        <h2>TAIWIND</h2>
+                        <h2>TAILWIND</h2>
                     </div>
                     <div class="progress">
                         <div class="progress-done tailwind" data-done="70">
@@ -200,6 +231,7 @@
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>Framework</span></p>
+                    <p><span>Primer día:</span> --/--/2021</p>
                 </div>
             </article>
             <!-- NPM -->
@@ -219,6 +251,7 @@
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>Administrador de paquetes</span></p>
+                    <p><span>Primer día:</span> --/--/2021</p>
                 </div>
             </article>
             <!-- NODE -->
@@ -238,6 +271,7 @@
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>Full Stack Framework</span></p>
+                    <p><span>Primer día:</span> --/--/2021</p>
                 </div>
             </article>
             <!-- mongo -->
@@ -257,28 +291,92 @@
                 </div>
                 <div class="card-type">
                     <p>Tipo de tecnología: <span>BASE DE DATOS</span></p>
+                    <p><span>Primer día:</span> --/--/2021</p>
                 </div>
             </article>
-            <!-- Mongo -->
+            <!-- Firebase -->
             <article class="card-body">
                 <div class="card-svg-logo">
-                    <img src="assets/img/logos/nodejs-icon.svg" alt="React">
+                    <img src="assets/img/logos/firebase.svg" alt="React">
                 </div>
                 <div class="card-name">
                     <div>
-                        <h2>NODE.JS</h2>
+                        <h2>FIREBASE</h2>
                     </div>
                     <div class="progress">
-                        <div class="progress-done node" data-done="70">
+                        <div class="progress-done firebase" data-done="70">
                             70%
                         </div>
                     </div>
                 </div>
                 <div class="card-type">
-                    <p>Tipo de tecnología: <span>Full Stack Framework</span></p>
+                    <p>Tipo de tecnología: <span>Base de datos</span></p>
+                    <p><span>Primer día:</span> --/--/2021</p>
+                </div>
+            </article>
+            <!-- Python -->
+            <article class="card-body">
+                <div class="card-svg-logo">
+                    <img src="assets/img/logos/python.svg" alt="React">
+                </div>
+                <div class="card-name">
+                    <div>
+                        <h2>PYTHON</h2>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-done python" data-done="70">
+                            70%
+                        </div>
+                    </div>
+                </div>
+                <div class="card-type">
+                    <p>Tipo de tecnología: <span>Base de datos</span></p>
+                    <p><span>Primer día:</span> 15/03/2020</p>
+                </div>
+            </article>
+            <!-- Django -->
+            <article class="card-body">
+                <div class="card-svg-logo">
+                    <img src="assets/img/logos/django.svg" alt="React">
+                </div>
+                <div class="card-name">
+                    <div>
+                        <h2>DJANGO</h2>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-done django" data-done="70">
+                            70%
+                        </div>
+                    </div>
+                </div>
+                <div class="card-type">
+                    <p>Tipo de tecnología: <span>Base de datos</span></p>
+                    <p><span>Primer día:</span> --/--/2021</p>
+                </div>
+            </article>
+            <!-- Webpack -->
+            <article class="card-body">
+                <div class="card-svg-logo">
+                    <img src="assets/img/logos/webpack.svg" alt="webpack">
+                </div>
+                <div class="card-name">
+                    <div>
+                        <h2>WEBPACK</h2>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-done webpack" data-done="70">
+                            70%
+                        </div>
+                    </div>
+                </div>
+                <div class="card-type">
+                    <p>Tipo de tecnología: <span>Base de datos</span></p>
+                    <p><span>Primer día:</span> --/--/2021</p>
                 </div>
             </article>
         </section>
+
+
 
 
     </main>
@@ -293,7 +391,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- MAIN JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js" type="module"></script>
 </body>
 
 </html>
