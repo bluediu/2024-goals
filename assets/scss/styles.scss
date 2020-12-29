@@ -46,6 +46,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  //background-color: var(--dark-color);
   margin: 0;
   font-family: var(--body-font);
 }
@@ -77,12 +78,21 @@ img {
   margin-right: 1rem;
 }
 
+/*===== Scroll Efect =====*/
+.scroll {
+  position: sticky !important;
+  top: 0;
+  transition: all 300ms ease-in-out !important;
+  background-color: rgba(39, 55, 70, 0.6) !important;
+}
+
 .l-header {
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   background-color: transparent;
+  transition: all 300ms ease-in-out;
   z-index: var(--z-modal);
 }
 

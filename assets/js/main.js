@@ -1,9 +1,12 @@
 const d = document;
 /* Cards */
 import { Card } from './cards.js';
+import { Scroll } from './scroll.js';
 
 // Invoked my class Card from Card(import)
 const c = new Card();
+// Invoked my class Scroll from Scroll(import)
+const s = new Scroll();
 
 /*====== MENU =====*/
 const showMenu = (toggleID, navID) => {
@@ -20,6 +23,7 @@ const showMenu = (toggleID, navID) => {
 d.addEventListener('DOMContentLoaded', () => {
   showMenu('nav-toggle', 'nav-menu');
   c.showCard();
+  s.scrollNavbar();
 });
 
 /*====== RELLAX =====*/
