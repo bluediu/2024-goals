@@ -7,7 +7,7 @@ export class Scroll {
     window.addEventListener('scroll', (e) => {
       let scroll = window.pageYOffset;
 
-      if (scroll > 700) {
+      if (scroll > 200) {
         this.$navigation.classList.add('scroll');
       } else {
         this.$navigation.classList.remove('scroll');
