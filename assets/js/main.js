@@ -27,7 +27,7 @@ d.addEventListener('DOMContentLoaded', () => {
 });
 
 /*====== RELLAX =====*/
-var rellax = new Rellax('.parallax');
+//var rellax = new Rellax('.parallax');
 
 /*====== ANIMATE GSAP ======*/
 /*Navbar*/
