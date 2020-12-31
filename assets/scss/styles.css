@@ -179,7 +179,7 @@ img {
 }
 
 .home__title, .home__subtitle {
-  font-family: 'Quicksand', sans-serif !important;
+  font-family: 'Quicksand', sans-serif;
   position: absolute;
   width: 100%;
   display: -webkit-box;
