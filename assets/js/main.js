@@ -26,9 +26,6 @@ d.addEventListener('DOMContentLoaded', () => {
   s.scrollNavbar();
 });
 
-/*====== RELLAX =====*/
-//var rellax = new Rellax('.parallax');
-
 /*====== ANIMATE GSAP ======*/
 /*Navbar*/
 gsap.from('.nav__logo', {
