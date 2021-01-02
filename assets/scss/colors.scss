@@ -49,7 +49,18 @@
 .webpack {
   background: linear-gradient(to right, #006eff 0%, #00aaff 100%);
 }
-
+.code {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.git {
+  background-color: #772f1a;
+  background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+}
+.typescript {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
 // Levels
 .basic {
   color: #2ecc71;
