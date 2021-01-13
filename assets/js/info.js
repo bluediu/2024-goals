@@ -77,7 +77,7 @@ export const technologies = [
     type: 'Full Stack Framework',
     progress: '1',
     class: 'node',
-    start: '--/--/2021',
+    start: '05/01/2021',
   },
   {
     name: 'mongo.db',
@@ -85,7 +85,7 @@ export const technologies = [
     type: 'Base de Datos',
     progress: '1',
     class: 'mongo',
-    start: '--/--/2021',
+    start: '12/01/2021',
   },
   {
     name: 'firebase',
