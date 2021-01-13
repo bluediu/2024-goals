@@ -83,6 +83,11 @@
   background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
 }
 
+.mysql {
+  background: -webkit-gradient(linear, left top, right top, from(#003985), to(#002647));
+  background: linear-gradient(to right, #003985 0%, #002647 100%);
+}
+
 .basic {
   color: #2ecc71;
 }
