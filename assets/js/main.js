@@ -8,6 +8,12 @@ const c = new Card();
 // Invoked my class Scroll from Scroll(import)
 const s = new Scroll();
 
+/*====== SCROLL REVEAL SECTION ======*/
+const st = ScrollReveal({
+  duration: 2500,
+  reset: true,
+});
+
 /*====== MENU =====*/
 const showMenu = (toggleID, navID) => {
   const $toggle = d.getElementById(toggleID),
@@ -24,6 +30,19 @@ d.addEventListener('DOMContentLoaded', () => {
   showMenu('nav-toggle', 'nav-menu');
   c.showCard();
   s.scrollNavbar();
+
+  // Animacion al cargar los post de manera dinamica
+  st.reveal('.hero-image-opacity', {
+    distance: '0px',
+    opacity: 0.1,
+    duration: 2000,
+  });
+  st.reveal('.card-name', { origin: 'left', distance: '20px', duration: 1900 });
+  st.reveal('.card-svg-logo', {
+    origin: 'right',
+    distance: '10px',
+    duration: 1800,
+  });
 });
 
 /*====== ANIMATE GSAP ======*/
@@ -79,12 +98,6 @@ gsap.from('.home__scroll', {
   ease: 'expo.out',
 });
 
-/*====== SCROLL REVEAL SECTION ======*/
-const st = ScrollReveal({
-  duration: 2500,
-  reset: true,
-});
-
 /*Data*/
 st.reveal('.section__data', { origin: 'left', distance: '70px' });
 /*Imgs*/
@@ -93,6 +106,3 @@ st.reveal('.section__img', { origin: 'left', distance: '90px', delay: 200 });
 st.reveal('.level-image', { origin: 'left', distance: '200px' });
 st.reveal('.level', { origin: 'left', delay: 100 });
 st.reveal('.skills-text', { origin: 'left', distance: '70px' });
-
-st.reveal('.card-name', { origin: 'left', distance: '20px' });
-st.reveal('.card-svg-logo', { origin: 'right', distance: '10px' });
