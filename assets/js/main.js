@@ -1,7 +1,7 @@
 const d = document;
 /* Cards */
-import { Card } from './cards.js';
-import { Scroll } from './scroll.js';
+import {Card} from './cards.js';
+import {Scroll} from './scroll.js';
 
 // Invoked my class Card from Card(import)
 const c = new Card();
@@ -9,7 +9,7 @@ const c = new Card();
 const s = new Scroll();
 
 /*====== SCROLL REVEAL SECTION ======*/
-const st = ScrollReveal({
+const st = new ScrollReveal({
   duration: 2500,
   reset: true,
 });
@@ -37,7 +37,7 @@ d.addEventListener('DOMContentLoaded', () => {
     opacity: 0.1,
     duration: 2000,
   });
-  st.reveal('.card-name', { origin: 'left', distance: '20px', duration: 1900 });
+  st.reveal('.card-name', {origin: 'left', distance: '20px', duration: 1900});
   st.reveal('.card-svg-logo', {
     origin: 'right',
     distance: '10px',
@@ -99,10 +99,10 @@ gsap.from('.home__scroll', {
 });
 
 /*Data*/
-st.reveal('.section__data', { origin: 'left', distance: '70px' });
+st.reveal('.section__data', {origin: 'left', distance: '70px'});
 /*Imgs*/
-st.reveal('.section__img', { origin: 'left', distance: '90px', delay: 200 });
+st.reveal('.section__img', {origin: 'left', distance: '90px', delay: 200});
 
-st.reveal('.level-image', { origin: 'left', distance: '200px' });
-st.reveal('.level', { origin: 'left', delay: 100 });
-st.reveal('.skills-text', { origin: 'left', distance: '70px' });
+st.reveal('.level-image', {origin: 'left', distance: '200px'});
+st.reveal('.level', {origin: 'left', delay: 100});
+st.reveal('.skills-text', {origin: 'left', distance: '70px'});

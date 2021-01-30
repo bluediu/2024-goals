@@ -1,4 +1,4 @@
-import { technologies } from './info.js';
+import {technologies} from './info.js';
 
 const d = document;
 
@@ -21,9 +21,8 @@ export class Card {
       </div>
 
       <figure class="card-name">
-        <div>
-          <h2>${tech.name.toUpperCase()}</h2>
-        </div>
+       
+        <h2>${tech.name.toUpperCase()}</h2>
 
         <figcaption class="progress">
           <div class="progress-done ${tech.class}"

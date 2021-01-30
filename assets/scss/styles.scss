@@ -325,7 +325,7 @@ img {
   margin-left: 1rem;
   margin-right: 1rem;
   padding: 1rem;
-  width: auto;
+  max-width: 1200px;
   border-radius: 10px;
 
   display: flex;
@@ -354,7 +354,7 @@ img {
     justify-content: center;
     h2 {
       display: block;
-      font-size: 2.5rem;
+      font-size: 2.1rem;
       letter-spacing: 3px;
       color: whitesmoke;
       text-align: center;
@@ -411,9 +411,9 @@ img {
   }
 }
 
-@media screen and(max-width: 760px) {
+@media screen and(max-width: 1200px) {
   .card-name h2 {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
   }
 }
 
