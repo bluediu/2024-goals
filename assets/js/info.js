@@ -139,9 +139,9 @@ export const technologies = [
     name: 'webpack',
     img: 'assets/img/logos/webpack.svg',
     type: 'Herramienta de Construcción',
-    progress: '1',
+    progress: '100',
     class: 'webpack',
-    start: '--/--/2021',
+    start: '04/02/2021',
   },
   {
     name: 'Visual Studio Code',

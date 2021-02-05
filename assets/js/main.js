@@ -37,12 +37,6 @@ d.addEventListener('DOMContentLoaded', () => {
     opacity: 0.1,
     duration: 2000,
   });
-  st.reveal('.card-name', {origin: 'left', distance: '20px', duration: 1900});
-  st.reveal('.card-svg-logo', {
-    origin: 'right',
-    distance: '10px',
-    duration: 1800,
-  });
 });
 
 /*====== ANIMATE GSAP ======*/
