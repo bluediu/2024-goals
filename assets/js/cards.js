@@ -1,4 +1,4 @@
-import {technologies} from './info.js';
+import { technologies } from './info.js';
 
 const d = document;
 

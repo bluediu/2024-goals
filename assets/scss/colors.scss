@@ -11,8 +11,7 @@
   background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
 }
 .react {
-  background-color: #29539b;
-  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+  background: linear-gradient(to right, #00aaff 0%, #8ad2ff 100%);
 }
 .sass {
   background-color: #fe7bb0;
@@ -70,6 +69,10 @@
 }
 .rxjs {
   background: linear-gradient(to right, #561579 0%, #f96297 100%);
+}
+.redux {
+  background-color: #6c33a3;
+  background-image: linear-gradient(316deg, #6c33a3 0%, #8241b8 74%);
 }
 // Levels
 .basic {

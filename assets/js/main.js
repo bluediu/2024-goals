@@ -1,7 +1,7 @@
 const d = document;
 /* Cards */
-import {Card} from './cards.js';
-import {Scroll} from './scroll.js';
+import { Card } from './cards.js';
+import { Scroll } from './scroll.js';
 
 // Invoked my class Card from Card(import)
 const c = new Card();
@@ -93,10 +93,10 @@ gsap.from('.home__scroll', {
 });
 
 /*Data*/
-st.reveal('.section__data', {origin: 'left', distance: '70px'});
+st.reveal('.section__data', { origin: 'left', distance: '70px' });
 /*Imgs*/
-st.reveal('.section__img', {origin: 'left', distance: '90px', delay: 200});
+st.reveal('.section__img', { origin: 'left', distance: '90px', delay: 200 });
 
-st.reveal('.level-image', {origin: 'left', distance: '200px'});
-st.reveal('.level', {origin: 'left', delay: 100});
-st.reveal('.skills-text', {origin: 'left', distance: '70px'});
+st.reveal('.level-image', { origin: 'left', distance: '200px' });
+st.reveal('.level', { origin: 'left', delay: 100 });
+st.reveal('.skills-text', { origin: 'left', distance: '70px' });

@@ -4,7 +4,7 @@ export class Scroll {
   }
 
   scrollNavbar() {
-    window.addEventListener('scroll', (e) => {
+    window.addEventListener('scroll', () => {
       let scroll = window.pageYOffset;
 
       if (scroll > 200) {
