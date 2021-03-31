@@ -1,106 +1,249 @@
 .html {
   background-color: #a40606;
-  background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+  background-image: linear-gradient(
+    315deg,
+    #a40606 0%,
+    #d98324 74%
+  );
 }
 
 .css {
   background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  background-image: linear-gradient(
+    315deg,
+    #2a2a72 0%,
+    #009ffd 74%
+  );
 }
 
 .js {
   background-color: #fbb034;
-  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  background-image: linear-gradient(
+    315deg,
+    #fbb034 0%,
+    #ffdd00 74%
+  );
 }
 
 .react {
-  background: -webkit-gradient(linear, left top, right top, from(#00aaff), to(#8ad2ff));
-  background: linear-gradient(to right, #00aaff 0%, #8ad2ff 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#00aaff),
+    to(#8ad2ff)
+  );
+  background: linear-gradient(
+    to right,
+    #00aaff 0%,
+    #8ad2ff 100%
+  );
 }
 
 .sass {
   background-color: #fe7bb0;
-  background-image: linear-gradient(315deg, #fe7bb0 0%, #ff748b 74%);
+  background-image: linear-gradient(
+    315deg,
+    #fe7bb0 0%,
+    #ff748b 74%
+  );
 }
 
 .bootstrap {
   background-color: #a4508b;
-  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  background-image: linear-gradient(
+    326deg,
+    #a4508b 0%,
+    #5f0a87 74%
+  );
 }
 
 .tailwind {
   background-color: #abe9cd;
-  background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+  background-image: linear-gradient(
+    315deg,
+    #abe9cd 0%,
+    #3eadcf 74%
+  );
 }
 
 .npm {
-  background: -webkit-gradient(linear, left top, right top, from(#f32020), to(#d73c72));
-  background: linear-gradient(to right, #f32020 0%, #d73c72 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f32020),
+    to(#d73c72)
+  );
+  background: linear-gradient(
+    to right,
+    #f32020 0%,
+    #d73c72 100%
+  );
 }
 
 .node {
-  background: -webkit-gradient(linear, left top, right top, from(#20f339), to(#12781e));
-  background: linear-gradient(to right, #20f339 0%, #12781e 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#20f339),
+    to(#12781e)
+  );
+  background: linear-gradient(
+    to right,
+    #20f339 0%,
+    #12781e 100%
+  );
 }
 
 .mongo {
   background-color: #5d4604;
-  background-image: linear-gradient(316deg, #5d4604 0%, #591002 74%);
+  background-image: linear-gradient(
+    316deg,
+    #5d4604 0%,
+    #591002 74%
+  );
 }
 
 .firebase {
-  background: -webkit-gradient(linear, left top, right top, from(#ebdb00), to(#bf885f));
-  background: linear-gradient(to right, #ebdb00 0%, #bf885f 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ebdb00),
+    to(#bf885f)
+  );
+  background: linear-gradient(
+    to right,
+    #ebdb00 0%,
+    #bf885f 100%
+  );
 }
 
 .python {
-  background: -webkit-gradient(linear, left top, right top, from(#ffee00), to(#1000eb));
-  background: linear-gradient(to right, #ffee00 0%, #1000eb 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffee00),
+    to(#1000eb)
+  );
+  background: linear-gradient(
+    to right,
+    #ffee00 0%,
+    #1000eb 100%
+  );
 }
 
 .django {
   background-color: #3bb78f;
-  background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+  background-image: linear-gradient(
+    315deg,
+    #3bb78f 0%,
+    #0bab64 74%
+  );
 }
 
 .webpack {
-  background: -webkit-gradient(linear, left top, right top, from(#006eff), to(#00aaff));
-  background: linear-gradient(to right, #006eff 0%, #00aaff 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#006eff),
+    to(#00aaff)
+  );
+  background: linear-gradient(
+    to right,
+    #006eff 0%,
+    #00aaff 100%
+  );
 }
 
 .code {
   background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  background-image: linear-gradient(
+    315deg,
+    #2a2a72 0%,
+    #009ffd 74%
+  );
 }
 
 .git {
   background-color: #772f1a;
-  background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+  background-image: linear-gradient(
+    315deg,
+    #772f1a 0%,
+    #f2a65a 74%
+  );
 }
 
 .typescript {
   background-color: #045de9;
-  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  background-image: linear-gradient(
+    315deg,
+    #045de9 0%,
+    #09c6f9 74%
+  );
 }
 
 .mysql {
-  background: -webkit-gradient(linear, left top, right top, from(#003985), to(#002647));
-  background: linear-gradient(to right, #003985 0%, #002647 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#003985),
+    to(#002647)
+  );
+  background: linear-gradient(
+    to right,
+    #003985 0%,
+    #002647 100%
+  );
 }
 
 .angular {
   background-color: #990000;
-  background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
+  background-image: linear-gradient(
+    147deg,
+    #990000 0%,
+    #ff0000 74%
+  );
 }
 
 .rxjs {
-  background: -webkit-gradient(linear, left top, right top, from(#561579), to(#f96297));
-  background: linear-gradient(to right, #561579 0%, #f96297 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#561579),
+    to(#f96297)
+  );
+  background: linear-gradient(
+    to right,
+    #561579 0%,
+    #f96297 100%
+  );
 }
 
 .redux {
   background-color: #6c33a3;
-  background-image: linear-gradient(316deg, #6c33a3 0%, #8241b8 74%);
+  background-image: linear-gradient(
+    316deg,
+    #6c33a3 0%,
+    #8241b8 74%
+  );
+}
+
+.mern {
+  background: rgb(17, 173, 54);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 173, 54, 1) 0%,
+    rgba(62, 140, 118, 1) 32%,
+    rgba(1, 199, 239, 1) 64%,
+    rgba(99, 179, 72, 1) 94%
+  );
 }
 
 .basic {
