@@ -246,6 +246,14 @@
   );
 }
 
+.jest {
+  background: linear-gradient(
+    to right,
+    #b3327d 0%,
+    #d41659 100%
+  );
+}
+
 .basic {
   color: #2ecc71;
 }
