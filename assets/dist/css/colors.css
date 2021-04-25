@@ -269,3 +269,30 @@
 .advanced {
   color: #3498db;
 }
+
+/* ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgba(7, 7, 7, 0.7);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(215, 176, 231, 0.8);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(8, 247, 255, 0.9);
+}
