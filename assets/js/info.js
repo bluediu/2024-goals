@@ -91,7 +91,7 @@ export const technologies = [
     name: 'tailwind ',
     img: 'assets/img/logos/tailwindcss-icon.svg',
     type: 'Framework',
-    progress: '1',
+    progress: '20',
     class: 'tailwind ',
     start: '27/06/2021',
   },
