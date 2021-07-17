@@ -235,6 +235,17 @@
   );
 }
 
+.graphql {
+  background: rgb(17, 173, 54);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 173, 54, 1) 0%,
+    rgba(204, 38, 164, 1) 0%,
+    rgba(252, 0, 255, 1) 100%,
+    rgba(230, 235, 228, 1) 100%
+  );
+}
+
 .mern {
   background: rgb(17, 173, 54);
   background: linear-gradient(
