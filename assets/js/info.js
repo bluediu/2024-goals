@@ -143,7 +143,7 @@ export const technologies = [
     class: 'mysql',
     start: '25/02/2021',
   },
-  /*{
+  {
     name: 'php',
     img: 'assets/img/logos/php.svg',
     type: 'Lenguaje de programación',
@@ -159,7 +159,7 @@ export const technologies = [
     class: 'laravel',
     start: '--/--/2021',
   },
-  {
+  /*{
     name: 'python',
     img: 'assets/img/logos/python.svg',
     type: 'Lenguaje de programación',
