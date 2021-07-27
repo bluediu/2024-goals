@@ -147,9 +147,9 @@ export const technologies = [
     name: 'php',
     img: 'assets/img/logos/php.svg',
     type: 'Lenguaje de programación',
-    progress: '1',
+    progress: '22',
     class: 'css',
-    start: '--/--/2021',
+    start: '27/07/2021',
   },
   {
     name: 'laravel',
