@@ -404,7 +404,8 @@ img {
   -ms-flex-pack: center;
   justify-content: center;
   background-color: #17202a;
-  -webkit-box-shadow: 20px 20px 60px #17202a, -20px -20px 60px #17202a;
+  -webkit-box-shadow: 20px 20px 60px #17202a,
+    -20px -20px 60px #17202a;
   box-shadow: 20px 20px 60px #17202a, -20px -20px 60px #17202a;
   font-family: 'Raleway', sans-serif;
 }

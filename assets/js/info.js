@@ -64,6 +64,14 @@ export const technologies = [
     start: '01/01/2021',
   },
   {
+    name: 'vue',
+    img: 'assets/img/logos/vue.svg',
+    type: 'Framework',
+    progress: '1',
+    class: 'vue',
+    start: '01/01/2021',
+  },
+  /*   {
     name: 'angular',
     img: 'assets/img/logos/angular-icon.svg',
     type: 'Framework',
@@ -78,7 +86,7 @@ export const technologies = [
     progress: '1',
     class: 'rxjs',
     start: '--/--/2021',
-  },
+  }, */
   {
     name: 'sass',
     img: 'assets/img/logos/sass.svg',

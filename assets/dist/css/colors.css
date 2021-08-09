@@ -274,6 +274,11 @@
   );
 }
 
+.vue {
+  background-color: #42b883;
+  background-image: 120deg, #42b883, #35495e;
+}
+
 .basic {
   color: #2ecc71;
 }
