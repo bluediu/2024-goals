@@ -63,15 +63,15 @@ export const technologies = [
     class: 'typescript',
     start: '01/01/2021',
   },
-  {
+  /*  {
     name: 'vue',
     img: 'assets/img/logos/vue.svg',
     type: 'Framework',
     progress: '1',
     class: 'vue',
     start: '01/01/2021',
-  },
-  /*   {
+  }, */
+  {
     name: 'angular',
     img: 'assets/img/logos/angular-icon.svg',
     type: 'Framework',
@@ -86,7 +86,7 @@ export const technologies = [
     progress: '1',
     class: 'rxjs',
     start: '--/--/2021',
-  }, */
+  },
   {
     name: 'sass',
     img: 'assets/img/logos/sass.svg',
@@ -123,7 +123,7 @@ export const technologies = [
     name: 'node.js',
     img: 'assets/img/logos/nodejs-icon.svg',
     type: 'Full Stack Framework',
-    progress: '65',
+    progress: '100',
     class: 'node',
     start: '05/01/2021',
   },
@@ -131,7 +131,7 @@ export const technologies = [
     name: 'mongo.db',
     img: 'assets/img/logos/mongodb.svg',
     type: 'Base de Datos',
-    progress: '53',
+    progress: '76',
     class: 'mongo',
     start: '12/01/2021',
   },
@@ -155,7 +155,7 @@ export const technologies = [
     name: 'php',
     img: 'assets/img/logos/php.svg',
     type: 'Lenguaje de programación',
-    progress: '22',
+    progress: '45',
     class: 'css',
     start: '27/07/2021',
   },
@@ -211,7 +211,7 @@ export const technologies = [
     name: 'MERN',
     img: 'assets/img/logos/mern.png',
     type: 'Full Stack | Javascript',
-    progress: '63',
+    progress: '100',
     class: 'mern',
     start: 'Experiencia',
   },
