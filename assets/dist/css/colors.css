@@ -211,21 +211,6 @@
   );
 }
 
-.rxjs {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#561579),
-    to(#f96297)
-  );
-  background: linear-gradient(
-    to right,
-    #561579 0%,
-    #f96297 100%
-  );
-}
-
 .redux {
   background-color: #6c33a3;
   background-image: linear-gradient(

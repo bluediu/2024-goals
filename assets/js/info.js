@@ -80,14 +80,6 @@ export const technologies = [
     start: '08/10/2021',
   },
   {
-    name: 'rxjs',
-    img: 'assets/img/logos/reactivex.svg',
-    type: 'Arquitectura',
-    progress: '1',
-    class: 'rxjs',
-    start: '--/--/2021',
-  },
-  {
     name: 'sass',
     img: 'assets/img/logos/sass.svg',
     type: 'Pre-Procesador',
@@ -109,7 +101,7 @@ export const technologies = [
     type: 'Framework',
     progress: '20',
     class: 'tailwind ',
-    start: '27/06/2021',
+    start: '--/--/2021',
   },
   {
     name: 'npm',
@@ -151,7 +143,7 @@ export const technologies = [
     class: 'mysql',
     start: '25/02/2021',
   },
-  {
+  /*   {
     name: 'php',
     img: 'assets/img/logos/php.svg',
     type: 'Lenguaje de programación',
@@ -166,7 +158,7 @@ export const technologies = [
     progress: '1',
     class: 'laravel',
     start: '--/--/2021',
-  },
+  }, */
   /*{
     name: 'python',
     img: 'assets/img/logos/python.svg',
