@@ -25,6 +25,10 @@
   );
 }
 
+.docker {
+  background-color: #5dade2;
+}
+
 .react {
   background: -webkit-gradient(
     linear,

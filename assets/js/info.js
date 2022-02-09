@@ -43,8 +43,16 @@ export const technologies = [
     name: 'Graphql',
     img: 'assets/img/logos/graphql.svg',
     type: 'Query Languages',
-    progress: '20',
+    progress: '75',
     class: 'graphql',
+    start: '13/12/2021',
+  },
+  {
+    name: 'docker',
+    img: 'assets/img/logos/docker-icon.svg',
+    type: 'Contenedor',
+    progress: '1',
+    class: 'docker',
     start: '13/12/2021',
   },
   {
