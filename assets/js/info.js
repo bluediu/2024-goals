@@ -128,6 +128,14 @@ export const technologies = [
     start: '05/01/2021',
   },
   {
+    name: 'Nest',
+    img: 'assets/img/logos/nestjs.svg',
+    type: 'Full Stack Framework',
+    progress: '1',
+    class: 'nest',
+    start: '--/--/2022',
+  },
+  {
     name: 'mongo.db',
     img: 'assets/img/logos/mongodb.svg',
     type: 'Base de Datos',

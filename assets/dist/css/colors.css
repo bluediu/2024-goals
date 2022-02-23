@@ -29,6 +29,15 @@
   background-color: #5dade2;
 }
 
+.nest {
+  background-color: #f71735;
+  background-image: linear-gradient(
+    147deg,
+    #f71735 0%,
+    #db3445 74%
+  );
+}
+
 .react {
   background: -webkit-gradient(
     linear,
