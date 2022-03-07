@@ -159,38 +159,22 @@ export const technologies = [
     class: 'mysql',
     start: '25/02/2021',
   },
-  /*   {
-    name: 'php',
-    img: 'assets/img/logos/php.svg',
-    type: 'Lenguaje de programación',
-    progress: '78',
-    class: 'css',
-    start: '27/07/2021',
-  },
   {
-    name: 'laravel',
-    img: 'assets/img/logos/laravel.svg',
-    type: 'full-stack framework',
-    progress: '1',
-    class: 'laravel',
-    start: '--/--/2021',
-  }, */
-  /*{
-    name: 'python',
-    img: 'assets/img/logos/python.svg',
-    type: 'Lenguaje de programación',
-    progress: '52',
-    class: 'python',
-    start: '15/03/2020',
-  },
-  {
-    name: 'django',
-    img: 'assets/img/logos/django.svg',
+    name: 'java',
+    img: 'assets/img/logos/java.svg',
     type: 'Lenguaje de programación',
     progress: '1',
-    class: 'django',
+    class: 'java',
     start: '--/--/2021',
-  },*/
+  },
+  {
+    name: 'spring boot',
+    img: 'assets/img/logos/spring-icon.svg',
+    type: 'Full stack framework',
+    progress: '1',
+    class: 'spring',
+    start: '--/--/2021',
+  },
   {
     name: 'webpack',
     img: 'assets/img/logos/webpack.svg',
@@ -223,4 +207,37 @@ export const technologies = [
     class: 'mern',
     start: 'Experiencia',
   },
+  /* TODO: Descartados de momento */
+  /*   {
+    name: 'php',
+    img: 'assets/img/logos/php.svg',
+    type: 'Lenguaje de programación',
+    progress: '78',
+    class: 'css',
+    start: '27/07/2021',
+  },
+  {
+    name: 'laravel',
+    img: 'assets/img/logos/laravel.svg',
+    type: 'full-stack framework',
+    progress: '1',
+    class: 'laravel',
+    start: '--/--/2021',
+  }, */
+  /*{
+    name: 'python',
+    img: 'assets/img/logos/python.svg',
+    type: 'Lenguaje de programación',
+    progress: '52',
+    class: 'python',
+    start: '15/03/2020',
+  },
+  {
+    name: 'django',
+    img: 'assets/img/logos/django.svg',
+    type: 'Lenguaje de programación',
+    progress: '1',
+    class: 'django',
+    start: '--/--/2021',
+  },*/
 ];

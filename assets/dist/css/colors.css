@@ -277,6 +277,27 @@
   background-image: 120deg, #42b883, #35495e;
 }
 
+.java {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 12%,
+    rgba(6, 69, 161, 1) 32%,
+    rgba(89, 91, 107, 1) 49%,
+    rgba(255, 136, 0, 1) 100%
+  );
+}
+
+.spring {
+  background-color: #00b712;
+  background-image: linear-gradient(
+    315deg,
+    #00b712 0%,
+    #5aff15 74%
+  );
+}
+
 .basic {
   color: #2ecc71;
 }
