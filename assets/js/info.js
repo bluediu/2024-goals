@@ -159,7 +159,7 @@ export const technologies = [
     class: 'mysql',
     start: '25/02/2021',
   },
-  {
+  /* {
     name: 'java',
     img: 'assets/img/logos/java.svg',
     type: 'Lenguaje de programación',
@@ -174,7 +174,7 @@ export const technologies = [
     progress: '1',
     class: 'spring',
     start: '--/--/2021',
-  },
+  },*/
   {
     name: 'webpack',
     img: 'assets/img/logos/webpack.svg',
@@ -207,15 +207,14 @@ export const technologies = [
     class: 'mern',
     start: 'Experiencia',
   },
-  /* TODO: Descartados de momento */
-  /*   {
+  {
     name: 'php',
     img: 'assets/img/logos/php.svg',
     type: 'Lenguaje de programación',
-    progress: '78',
+    progress: '10',
     class: 'css',
     start: '27/07/2021',
-  },
+  } /*
   {
     name: 'laravel',
     img: 'assets/img/logos/laravel.svg',
@@ -223,7 +222,7 @@ export const technologies = [
     progress: '1',
     class: 'laravel',
     start: '--/--/2021',
-  }, */
+  }, */,
   /*{
     name: 'python',
     img: 'assets/img/logos/python.svg',
