@@ -48,12 +48,20 @@ export const technologies = [
     start: '13/12/2021',
   },
   {
+    name: 'next.js',
+    img: 'assets/img/logos/nextjs.svg',
+    type: 'Framework',
+    progress: '1',
+    class: 'next',
+    start: '--/--/2022',
+  },
+  {
     name: 'docker',
     img: 'assets/img/logos/docker-icon.svg',
     type: 'Contenedor',
-    progress: '1',
+    progress: '5',
     class: 'docker',
-    start: '13/12/2021',
+    start: '4/04/2022',
   },
   {
     name: 'jest',
@@ -67,25 +75,17 @@ export const technologies = [
     name: 'typescript',
     img: 'assets/img/logos/typescript-icon.svg',
     type: 'Lenguaje de programación',
-    progress: '19',
+    progress: '40',
     class: 'typescript',
     start: '01/01/2021',
   },
-  /*  {
+  {
     name: 'vue',
     img: 'assets/img/logos/vue.svg',
     type: 'Framework',
     progress: '1',
     class: 'vue',
-    start: '01/01/2021',
-  }, */
-  {
-    name: 'angular',
-    img: 'assets/img/logos/angular-icon.svg',
-    type: 'Framework',
-    progress: '60',
-    class: 'angular',
-    start: '08/10/2021',
+    start: '03/04/2022',
   },
   {
     name: 'sass',
@@ -127,14 +127,7 @@ export const technologies = [
     class: 'node',
     start: '05/01/2021',
   },
-  {
-    name: 'Nest',
-    img: 'assets/img/logos/nestjs.svg',
-    type: 'Full Stack Framework',
-    progress: '1',
-    class: 'nest',
-    start: '--/--/2022',
-  },
+
   {
     name: 'mongo.db',
     img: 'assets/img/logos/mongodb.svg',
@@ -159,22 +152,6 @@ export const technologies = [
     class: 'mysql',
     start: '25/02/2021',
   },
-  /* {
-    name: 'java',
-    img: 'assets/img/logos/java.svg',
-    type: 'Lenguaje de programación',
-    progress: '1',
-    class: 'java',
-    start: '--/--/2021',
-  },
-  {
-    name: 'spring boot',
-    img: 'assets/img/logos/spring-icon.svg',
-    type: 'Full stack framework',
-    progress: '1',
-    class: 'spring',
-    start: '--/--/2021',
-  },*/
   {
     name: 'webpack',
     img: 'assets/img/logos/webpack.svg',
@@ -211,7 +188,7 @@ export const technologies = [
     name: 'php',
     img: 'assets/img/logos/php.svg',
     type: 'Lenguaje de programación',
-    progress: '10',
+    progress: '20',
     class: 'css',
     start: '27/07/2021',
   } /*
@@ -239,4 +216,36 @@ export const technologies = [
     class: 'django',
     start: '--/--/2021',
   },*/
+  /* {
+    name: 'java',
+    img: 'assets/img/logos/java.svg',
+    type: 'Lenguaje de programación',
+    progress: '1',
+    class: 'java',
+    start: '--/--/2021',
+  },
+  {
+    name: 'spring boot',
+    img: 'assets/img/logos/spring-icon.svg',
+    type: 'Full stack framework',
+    progress: '1',
+    class: 'spring',
+    start: '--/--/2021',
+  },*/
+  /* {
+    name: 'Nest',
+    img: 'assets/img/logos/nestjs.svg',
+    type: 'Full Stack Framework',
+    progress: '1',
+    class: 'nest',
+    start: '--/--/2022',
+  }, */
+  /*  {
+    name: 'angular',
+    img: 'assets/img/logos/angular-icon.svg',
+    type: 'Framework',
+    progress: '60',
+    class: 'angular',
+    start: '08/10/2021',
+  }, */
 ];
