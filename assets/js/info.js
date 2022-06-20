@@ -40,20 +40,20 @@ export const technologies = [
     start: '30/04/2021',
   },
   {
-    name: 'Graphql',
-    img: 'assets/img/logos/graphql.svg',
-    type: 'Query Languages',
-    progress: '75',
-    class: 'graphql',
-    start: '13/12/2021',
-  },
-  {
     name: 'next.js',
     img: 'assets/img/logos/nextjs.svg',
     type: 'Framework',
     progress: '1',
     class: 'next',
-    start: '--/--/2022',
+    start: '20/06/2022',
+  },
+  {
+    name: 'graphql',
+    img: 'assets/img/logos/graphql.svg',
+    type: 'Query Languages',
+    progress: '75',
+    class: 'graphql',
+    start: '13/12/2021',
   },
   {
     name: 'docker',
@@ -75,18 +75,18 @@ export const technologies = [
     name: 'typescript',
     img: 'assets/img/logos/typescript-icon.svg',
     type: 'Lenguaje de programación',
-    progress: '40',
+    progress: '73',
     class: 'typescript',
     start: '01/01/2021',
   },
-  {
+  /*   {
     name: 'vue',
     img: 'assets/img/logos/vue.svg',
     type: 'Framework',
     progress: '1',
     class: 'vue',
     start: '03/04/2022',
-  },
+  }, */
   {
     name: 'sass',
     img: 'assets/img/logos/sass.svg',
@@ -107,18 +107,18 @@ export const technologies = [
     name: 'tailwind ',
     img: 'assets/img/logos/tailwindcss-icon.svg',
     type: 'Framework',
-    progress: '20',
+    progress: '1',
     class: 'tailwind ',
-    start: '--/--/2021',
+    start: '--/--/2023',
   },
-  {
+  /*   {
     name: 'npm',
     img: 'assets/img/logos/npm-icon.svg',
     type: 'Administrador de paquetes',
     progress: '100',
     class: 'npm',
     start: '05/01/2021',
-  },
+  }, */
   {
     name: 'node.js',
     img: 'assets/img/logos/nodejs-icon.svg',
@@ -153,14 +153,6 @@ export const technologies = [
     start: '25/02/2021',
   },
   {
-    name: 'webpack',
-    img: 'assets/img/logos/webpack.svg',
-    type: 'Herramienta de Construcción',
-    progress: '100',
-    class: 'webpack',
-    start: '04/02/2021',
-  },
-  {
     name: 'Visual Studio Code',
     img: 'assets/img/logos/visual-studio-code.svg',
     type: 'Editor de código',
@@ -172,7 +164,7 @@ export const technologies = [
     name: 'Git & GitHud',
     img: 'assets/img/logos/git-icon.svg',
     type: 'Control de Versiones',
-    progress: '71',
+    progress: '100',
     class: 'git',
     start: '23/10/2020',
   },
@@ -191,15 +183,15 @@ export const technologies = [
     progress: '20',
     class: 'css',
     start: '27/07/2021',
-  } /*
+  },
   {
     name: 'laravel',
     img: 'assets/img/logos/laravel.svg',
     type: 'full-stack framework',
     progress: '1',
     class: 'laravel',
-    start: '--/--/2021',
-  }, */,
+    start: '--/--/2022',
+  },
   /*{
     name: 'python',
     img: 'assets/img/logos/python.svg',
@@ -248,4 +240,5 @@ export const technologies = [
     class: 'angular',
     start: '08/10/2021',
   }, */
+  ,
 ];
