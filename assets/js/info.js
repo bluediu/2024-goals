@@ -43,7 +43,7 @@ export const technologies = [
     name: 'next.js',
     img: 'assets/img/logos/nextjs.svg',
     type: 'Framework',
-    progress: '1',
+    progress: '25',
     class: 'next',
     start: '20/06/2022',
   },
