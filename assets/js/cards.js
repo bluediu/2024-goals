@@ -1,43 +1,31 @@
-import { technologies } from './info.js';
+import { data } from './info.js';
 
 const d = document;
 
+/**
+ * Filters and displays the cards based on the selected status.
+ */
 export function filterCards() {
-  const cardContainer = d.querySelector('.card-container');
-  const filterSelect = d.getElementById('status-filter');
+  const $cardContainer = d.querySelector('.card-container');
+  const $filterSelect = d.getElementById('status-filter');
 
-  const status = filterSelect.value;
-  cardContainer.innerHTML = '';
+  // Clean the card container when filtering.
+  $cardContainer.innerHTML = '';
 
-  const filtered = technologies
-    .filter((t) => {
-      if (status === 'ALL') {
-        return true;
-      }
-      console.log(t.status, status);
-      return t.status === status;
-    })
+  const status = $filterSelect.value;
+  const technologies = data
+    .filter((t) => status === 'ALL' || t.status === status)
     .sort((a, b) => a.progress - b.progress);
-  console.log(filtered);
 
-  // render filtered cards
   const $fragment = d.createDocumentFragment();
 
-  // const technologiesList = technologies.;
-
-  filtered.forEach((tech) => {
-    let status = '';
-    let statusColor = '';
-    if (tech.status === 'COMPLETED') {
-      status = 'Completed 🎉';
-      statusColor = '#2ECC71';
-    } else if (tech.status === 'WIP') {
-      status = 'Learning 👨🏻‍💻';
-      statusColor = '#5DADE2';
-    } else {
-      status = 'Pending 🤔';
-      statusColor = '#AAB7B8';
-    }
+  technologies.forEach((tech) => {
+    const statusMap = {
+      COMPLETED: ['Completed 🎉', '#2ECC71'],
+      WIP: ['Learning 👨🏻‍💻', '#5DADE2'],
+      PENDING: ['Pending ⏳', '#AAB7B8'],
+    };
+    const [statusText, statusColor] = statusMap[tech.status];
 
     const $article = d.createElement('article');
     $article.classList.add('card-body');
@@ -62,12 +50,12 @@ export function filterCards() {
 
     <div class="card-type">
       <p>Type of technology: <span>${tech.type}</span></p>
-      <p>Status: <span style="color: ${statusColor}">${status}</span></p>
+      <p>Status: <span style="color: ${statusColor}">${statusText}</span></p>
     </div>
     `;
 
     $fragment.appendChild($article);
   });
 
-  cardContainer.appendChild($fragment);
+  $cardContainer.appendChild($fragment);
 }
