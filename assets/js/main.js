@@ -1,17 +1,12 @@
 const d = document;
-/* Cards */
-import { Card } from './cards.js';
-import { Scroll } from './scroll.js';
 
-// Invoked my class Card from Card(import)
-const c = new Card();
-// Invoked my class Scroll from Scroll(import)
-const s = new Scroll();
+import { filterCards } from './cards.js';
+import { scrollNavbar } from './scroll.js';
 
 /*====== SCROLL REVEAL SECTION ======*/
 const st = new ScrollReveal({
-  duration: 2500,
-  reset: true,
+  duration: 1800,
+  reset: false,
 });
 
 /*====== MENU =====*/
@@ -26,40 +21,46 @@ const showMenu = (toggleID, navID) => {
   }
 };
 
+/*====== CONTENT LOADED ======*/
 d.addEventListener('DOMContentLoaded', () => {
   showMenu('nav-toggle', 'nav-menu');
-  c.showCard();
-  s.scrollNavbar();
+  scrollNavbar();
+  filterCards();
 
-  // Animacion al cargar los post de manera dinamica
+  // Add hero image animation.
   st.reveal('.hero-image-opacity', {
     distance: '0px',
     opacity: 0.1,
-    duration: 2000,
+    duration: 300,
   });
+});
+
+const $filterSelect = document.getElementById('status-filter');
+$filterSelect.addEventListener('change', () => {
+  filterCards();
 });
 
 /*====== ANIMATE GSAP ======*/
 /*Navbar*/
 gsap.from('.nav__logo', {
   opacity: 0,
-  duration: 3,
-  delay: 0.5,
+  duration: 2,
+  delay: 0.3,
   y: 30,
   ease: 'expo.out',
 });
 
 gsap.from('.nav__toggle', {
   opacity: 0,
-  duration: 3,
-  delay: 0.7,
+  duration: 2,
+  delay: 0.4,
   y: 30,
   ease: 'expo.out',
 });
 
 gsap.from('.nav__item', {
   opacity: 0,
-  duration: 3,
+  duration: 2,
   delay: 0.7,
   y: 35,
   ease: 'expo.out',
@@ -69,16 +70,16 @@ gsap.from('.nav__item', {
 /*Text*/
 gsap.from('.home__title', {
   opacity: 0,
-  duration: 3,
-  delay: 1.3,
+  duration: 2,
+  delay: 1.1,
   y: 35,
   ease: 'expo.out',
 });
 
 gsap.from('.home__subtitle', {
   opacity: 0,
-  duration: 3,
-  delay: 1.1,
+  duration: 2,
+  delay: 1.2,
   y: 35,
   ease: 'power3.inOut',
 });
@@ -86,17 +87,17 @@ gsap.from('.home__subtitle', {
 /*Scroll*/
 gsap.from('.home__scroll', {
   opacity: 0,
-  duration: 3,
-  delay: 1.5,
+  duration: 2,
+  delay: 1.1,
   y: 25,
   ease: 'expo.out',
 });
 
 /*Data*/
 st.reveal('.section__data', { origin: 'left', distance: '70px' });
+
 /*Imgs*/
 st.reveal('.section__img', { origin: 'left', distance: '90px', delay: 200 });
-
 st.reveal('.level-image', { origin: 'left', distance: '200px' });
 st.reveal('.level', { origin: 'left', delay: 100 });
 st.reveal('.skills-text', { origin: 'left', distance: '70px' });
