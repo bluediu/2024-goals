@@ -98,7 +98,7 @@ img {
   background-color: rgba(39, 55, 70, 0.6) !important;
 }
 
-.l-header {
+.app-header {
   width: 100%;
   position: absolute;
   top: 0;
@@ -191,7 +191,7 @@ img {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url('../../img/blue_mountains.png');
+  background-image: url('../img/blue_mountains.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -372,6 +372,33 @@ img {
   }
 }
 
+/* ===== Filter ==== */
+
+.filter-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #000;
+  width: 100%;
+}
+
+.filter {
+  background-color: #17202a;
+  border: 2px dashed #717d7e;
+  border-radius: 15px;
+  color: #d5dbdb;
+  font: 200 1.5rem sans-serif;
+  padding: 0.7rem 0.7rem;
+  height: 60px;
+  margin: 2rem;
+  box-shadow: 0 1px 3px -2px #393c44;
+}
+
+.filter:focus {
+  transition: box-shadow 0.2s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* ===== Card ==== */
 .card-container {
   display: -ms-grid;
@@ -404,8 +431,7 @@ img {
   -ms-flex-pack: center;
   justify-content: center;
   background-color: #17202a;
-  -webkit-box-shadow: 20px 20px 60px #17202a,
-    -20px -20px 60px #17202a;
+  -webkit-box-shadow: 20px 20px 60px #17202a, -20px -20px 60px #17202a;
   box-shadow: 20px 20px 60px #17202a, -20px -20px 60px #17202a;
   font-family: 'Raleway', sans-serif;
 }

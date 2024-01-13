@@ -1,3 +1,7 @@
+/**
+ * Add or removes a CSS class to the navigation element based on
+ * the scroll position.
+ */
 export function scrollNavbar() {
   const $navigation = document.querySelector('.app-header');
 

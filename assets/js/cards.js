@@ -36,9 +36,7 @@ export function filterCards() {
     </div>
 
     <figure class="card-name">
-     
       <h2>${tech.name.toUpperCase()}</h2>
-
       <figcaption class="progress">
         <div class="progress-done ${tech.class}"
         style="width: ${tech.progress}%; opacity: 1">
