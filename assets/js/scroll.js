@@ -1,17 +1,13 @@
-export class Scroll {
-  constructor() {
-    this.$navigation = document.querySelector('.l-header');
-  }
+export function scrollNavbar() {
+  const $navigation = document.querySelector('.app-header');
 
-  scrollNavbar() {
-    window.addEventListener('scroll', () => {
-      let scroll = window.pageYOffset;
+  window.addEventListener('scroll', () => {
+    let scroll = window.scrollY;
 
-      if (scroll > 200) {
-        this.$navigation.classList.add('scroll');
-      } else {
-        this.$navigation.classList.remove('scroll');
-      }
-    });
-  }
+    if (scroll > 200) {
+      $navigation.classList.add('scroll');
+    } else {
+      $navigation.classList.remove('scroll');
+    }
+  });
 }
