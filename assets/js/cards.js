@@ -2,46 +2,72 @@ import { technologies } from './info.js';
 
 const d = document;
 
-export class Card {
-  constructor() {
-    this.cards = d.querySelectorAll('.progress-done');
-    this.cardContainer = d.querySelector('.card-container');
-  }
+export function filterCards() {
+  const cardContainer = d.querySelector('.card-container');
+  const filterSelect = d.getElementById('status-filter');
 
-  showCard() {
-    const $fragment = d.createDocumentFragment();
+  const status = filterSelect.value;
+  cardContainer.innerHTML = '';
 
-    technologies.forEach((tech) => {
-      const $article = d.createElement('article');
-      $article.classList.add('card-body');
+  const filtered = technologies
+    .filter((t) => {
+      if (status === 'ALL') {
+        return true;
+      }
+      console.log(t.status, status);
+      return t.status === status;
+    })
+    .sort((a, b) => a.progress - b.progress);
+  console.log(filtered);
 
-      $article.innerHTML = `
-      <div class="card-svg-logo">
-        <img src="${tech.img}" alt="${tech.name.toLocaleLowerCase()}">
-      </div>
+  // render filtered cards
+  const $fragment = d.createDocumentFragment();
 
-      <figure class="card-name">
-       
-        <h2>${tech.name.toUpperCase()}</h2>
+  // const technologiesList = technologies.;
 
-        <figcaption class="progress">
-          <div class="progress-done ${tech.class}"
-          style="width: ${tech.progress}%; opacity: 1">
-            ${tech.progress} %
-          </div>
-        </figcaption>
+  filtered.forEach((tech) => {
+    let status = '';
+    let statusColor = '';
+    if (tech.status === 'COMPLETED') {
+      status = 'Completed 🎉';
+      statusColor = '#2ECC71';
+    } else if (tech.status === 'WIP') {
+      status = 'Learning 👨🏻‍💻';
+      statusColor = '#5DADE2';
+    } else {
+      status = 'Pending 🤔';
+      statusColor = '#AAB7B8';
+    }
 
-      </figure>
+    const $article = d.createElement('article');
+    $article.classList.add('card-body');
 
-      <div class="card-type">
-        <p>Tipo de tecnología: <span>${tech.type}</span></p>
-        <p><span>Primer día:</span> ${tech.start}</p>
-      </div>
-      `;
+    $article.innerHTML = `
+    <div class="card-svg-logo">
+      <img src="${tech.img}" alt="${tech.name.toLocaleLowerCase()}">
+    </div>
 
-      $fragment.appendChild($article);
-    });
+    <figure class="card-name">
+     
+      <h2>${tech.name.toUpperCase()}</h2>
 
-    this.cardContainer.appendChild($fragment);
-  }
+      <figcaption class="progress">
+        <div class="progress-done ${tech.class}"
+        style="width: ${tech.progress}%; opacity: 1">
+          ${tech.progress} %	
+        </div>
+      </figcaption>
+
+    </figure>
+
+    <div class="card-type">
+      <p>Type of technology: <span>${tech.type}</span></p>
+      <p>Status: <span style="color: ${statusColor}">${status}</span></p>
+    </div>
+    `;
+
+    $fragment.appendChild($article);
+  });
+
+  cardContainer.appendChild($fragment);
 }
