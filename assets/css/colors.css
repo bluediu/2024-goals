@@ -90,8 +90,7 @@
 }
 
 .mongo {
-  background-color: #5d4604;
-  background-image: linear-gradient(316deg, #5d4604 0%, #591002 74%);
+  background: linear-gradient(135deg, #42d392, #2ecc70);
 }
 
 .firebase {
