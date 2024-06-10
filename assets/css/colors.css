@@ -235,6 +235,10 @@
   );
 }
 
+.sql-server {
+  background: linear-gradient(to right, white, red);
+}
+
 .basic {
   color: #2ecc71;
 }
